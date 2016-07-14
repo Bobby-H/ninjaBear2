@@ -11,11 +11,3 @@ class Ninja < Fighter
     enemy.lose_health(self.power, enemy.health)
   end
 end
-
-# donnatello = Ninja.new("Donnatello", 100, 12)
-# paddington = Bear.new("Paddington", 100, 15)
-# # puts donnatello.attack(paddington)
-# puts paddington.attack(donnatello)
-# puts donnatello.inspect
-# # puts donnatello.name
-# # puts paddington.inspect

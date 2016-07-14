@@ -13,11 +13,3 @@ class Fighter
     self.health -= enemy_power
   end
 end
-
-# goku = Fighter.new("Goku", 9000, 120)
-# pikachu = Fighter.new("Pikachu", 8000, 60)
-#
-# puts goku.attack(pikachu)
-# puts pikachu.inspect
-# puts pikachu.attack(goku)
-# puts goku.inspect
