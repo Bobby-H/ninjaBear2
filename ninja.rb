@@ -1,4 +1,3 @@
-# require_relative 'bear'
 require_relative 'fighter'
 
 class Ninja < Fighter

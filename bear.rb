@@ -1,5 +1,6 @@
 require_relative 'fighter' # requires local file 'Fighter'
-class Bear
+
+class Bear < Fighter
   def initialize(name, health, power)
     super(name, health, power)
   end
