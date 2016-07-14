@@ -9,15 +9,16 @@ class Fighter
   def attack(enemy)
     enemy.lose_health(self.power, enemy.health)
   end
+
   def lose_health(enemy_power, health)
     self.health -= enemy_power
   end
 end
 
-goku = Fighter.new("Goku", 9000, 120)
-pikachu = Fighter.new("Pikachu", 8000, 60)
-
-puts goku.attack(pikachu)
-puts pikachu.inspect
-puts pikachu.attack(goku)
-puts goku.inspect
+# goku = Fighter.new("Goku", 9000, 120)
+# pikachu = Fighter.new("Pikachu", 8000, 60)
+#
+# puts goku.attack(pikachu)
+# puts pikachu.inspect
+# puts pikachu.attack(goku)
+# puts goku.inspect
