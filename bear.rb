@@ -6,7 +6,7 @@ class Bear < Fighter
   end
 
   def attack(enemy)
-    puts "RAWWWRR!!"
+    puts "(ノಠ益ಠ)ノ彡 ɐɾuᴉu!  RAWWWRR!!"
     enemy.lose_health(self.power, enemy.health)
   end
 end

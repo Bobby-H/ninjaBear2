@@ -6,7 +6,7 @@ class Ninja < Fighter
   end
 
   def attack(enemy)
-    puts "*in the blink of an eye ...* (╯°□°)╯︵ ɹɐǝq!"
+    puts "*in the blink of an eye ...* ¡ɹɐǝq ︵L(°□°L)"
     enemy.lose_health(self.power, enemy.health)
   end
 end
