@@ -1,6 +1,5 @@
 class Fighter
-  attr_reader :name
-  attr_accessor(:health, :power)
+  attr_accessor(:name, :health, :power)
   def initialize(name, health, power)
     @name = name
     @health = health
